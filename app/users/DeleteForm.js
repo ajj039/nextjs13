@@ -4,6 +4,7 @@ import {useFormStatus } from "react-dom";
 import { Button } from '@radix-ui/themes';
 import { deleteUser } from '@/utils/actions';
 import { Flex } from '@radix-ui/themes';
+import UsersPage from './page';
 
 const DeleteForm = ({id}) => {
     const {pending} = useFormStatus();
